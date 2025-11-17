@@ -1,71 +1,67 @@
-**📘 Desafio Final de Python – Processamento de Resenhas Multilíngues**
+🌐 Desafio Final de Python — Processamento de Resenhas Multilíngues
 
-Este repositório contém a solução do desafio final do curso de Python.
-Neste projeto, eu desenvolvi um pipeline completo para leitura, processamento e análise de resenhas multilíngues utilizando Python e um modelo de IA rodando localmente.
+Este repositório reúne minha solução para o desafio final do curso de Python.
+O objetivo foi transformar um arquivo .txt cheio de resenhas em diferentes idiomas em um conjunto organizado, traduzido e analisado — tudo usando Python e IA local.
 
-**🧠 Sobre o Projeto**
+✨ Visão Geral
 
-O objetivo do desafio foi trabalhar com um arquivo .txt contendo aproximadamente 25 resenhas de usuários sobre um aplicativo de inteligência artificial. As resenhas estavam em diversos idiomas (francês, inglês, espanhol, turco, polonês, italiano, entre outros) e cada linha do arquivo representava uma entrada completa contendo:
+Recebi um arquivo com ~25 resenhas sobre um app de IA. Cada linha trazia:
 
-ID do usuário
+🆔 ID do usuário
 
-Nome do usuário
+👤 Nome
 
-Comentário ou reclamação
+💬 Comentário / Reclamação
 
-Resenha detalhada (em idioma variável)
+🌍 Resenha em vários idiomas
 
-A proposta foi transformar essas linhas brutas em dados estruturados e analisáveis.
+A missão? Pegar esse conteúdo bruto e convertê-lo em dados limpos, estruturados e úteis.
 
-**🛠️ O que eu desenvolvi**
-1. Leitura do arquivo .txt
+🔧 O que eu desenvolvi
+1. Leitura inteligente do arquivo
 
-Carreguei o arquivo e converti cada linha em um elemento de uma lista Python.
-Cada posição da lista corresponde diretamente à linha original do arquivo.
+Transformei cada linha do .txt em um item de lista, preservando tudo exatamente como no arquivo original.
 
-2. Integração com IA local
+2. Análise com IA local
 
-Utilizei um modelo rodando localmente (LM Studio ou Ollama) para analisar cada resenha.
-Para cada item enviado ao modelo, recebi um JSON contendo:
+Para cada resenha, o modelo (LM Studio/Ollama) retornou um JSON contendo:
 
-usuario: nome do usuário
+👤 Usuário
 
-resenha_original: texto bruto da resenha
+📝 Resenha original
 
-resenha_traduzida: tradução automática para o português
+🇧🇷 Tradução para português
 
-sentimento: classificação entre positivo, negativo ou neutro
+🎭 Sentimento: positivo, negativo ou neutro
 
 3. Estruturação dos dados
 
-Transformei todas as respostas da IA em uma lista de dicionários bem formatada, permitindo manipulação simples e clara dentro do Python.
+Compilei todas as respostas em uma lista de dicionários padronizada e fácil de manipular.
 
-4. Função de análise dos resultados
+4. Função de análise final
 
 Criei uma função que:
 
-contabiliza quantas resenhas são positivas, negativas e neutras
+Conta quantas resenhas são positivas, negativas e neutras
 
-concatena todas as resenhas estruturadas em uma única string, usando um separador definido
+Gera uma única string com todos os registros organizados
 
-O retorno dessa função inclui tanto o relatório de contagem quanto a string final consolidada.
+📊 Resultado Final
 
-**📊 Resultado Final**
+Com o pipeline completo, obtive:
 
-Ao final do projeto, obtive:
+✅ Todas as resenhas traduzidas
 
-Uma lista de dicionários completamente estruturada
+✅ Classificação automática de sentimento
 
-As resenhas traduzidas para o português
+✅ Estatísticas consolidadas
 
-Uma classificação automática por sentimento
+✅ Uma estrutura de dados limpa e bem organizada
 
-Estatísticas consolidadas sobre o conteúdo do arquivo
+✅ Texto final unificado com todos os registros
 
-Um texto único contendo todos os registros concatenados
+🚀 Conclusão
 
-Esse desafio reuniu conceitos fundamentais do curso, incluindo manipulação de arquivos, listas, funções, uso de modelos de linguagem e transformação de dados.
-
-**🚀 Objetivo Concluído**
-
-O projeto me permitiu explorar um caso real de processamento de linguagem natural e reforçar diversos pilares do Python. Toda a solução foi desenvolvida de forma modular, clara e alinhada às boas práticas.
+Foi um desafio curto, direto e muito prático.
+Perfeito para consolidar leitura de arquivos, funções, manipulação de listas e integração com modelos de linguagem.
+Uma experiência real de NLP com Python + IA local — simples, funcional e elegante.
