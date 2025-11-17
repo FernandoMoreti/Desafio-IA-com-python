@@ -1,9 +1,9 @@
-*📘 Desafio Final de Python – Processamento de Resenhas Multilíngues*
+**📘 Desafio Final de Python – Processamento de Resenhas Multilíngues**
 
 Este repositório contém a solução do desafio final do curso de Python.
 Neste projeto, eu desenvolvi um pipeline completo para leitura, processamento e análise de resenhas multilíngues utilizando Python e um modelo de IA rodando localmente.
 
-*🧠 Sobre o Projeto*
+**🧠 Sobre o Projeto**
 
 O objetivo do desafio foi trabalhar com um arquivo .txt contendo aproximadamente 25 resenhas de usuários sobre um aplicativo de inteligência artificial. As resenhas estavam em diversos idiomas (francês, inglês, espanhol, turco, polonês, italiano, entre outros) e cada linha do arquivo representava uma entrada completa contendo:
 
@@ -17,7 +17,7 @@ Resenha detalhada (em idioma variável)
 
 A proposta foi transformar essas linhas brutas em dados estruturados e analisáveis.
 
-*🛠️ O que eu desenvolvi*
+**🛠️ O que eu desenvolvi**
 1. Leitura do arquivo .txt
 
 Carreguei o arquivo e converti cada linha em um elemento de uma lista Python.
@@ -50,7 +50,7 @@ concatena todas as resenhas estruturadas em uma única string, usando um separad
 
 O retorno dessa função inclui tanto o relatório de contagem quanto a string final consolidada.
 
-*📊 Resultado Final*
+**📊 Resultado Final**
 
 Ao final do projeto, obtive:
 
@@ -66,6 +66,6 @@ Um texto único contendo todos os registros concatenados
 
 Esse desafio reuniu conceitos fundamentais do curso, incluindo manipulação de arquivos, listas, funções, uso de modelos de linguagem e transformação de dados.
 
-*🚀 Objetivo Concluído*
+**🚀 Objetivo Concluído**
 
 O projeto me permitiu explorar um caso real de processamento de linguagem natural e reforçar diversos pilares do Python. Toda a solução foi desenvolvida de forma modular, clara e alinhada às boas práticas.
